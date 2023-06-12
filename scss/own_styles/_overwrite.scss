@@ -1,0 +1,21 @@
+
+$dark:rgb(54, 71, 85);
+$primary:#3c7c9c;
+$secondary:#13F2B3;
+
+
+$warning:#F2A007;
+$danger:#BF2A45;
+
+
+
+$ds-heading-font:"mr_dafoeregular", serif;
+$headings-font-family:  $ds-heading-font;
+
+
+
+$enable-shadows: true;
+$box-shadow-lg: 0px 5px 15px rgba($dark, .5);
+$box-shadow-sm: 5px 5px 1px rgba($warning, 1);
+$box-shadow: 5px 5px 1px rgba($secondary, 1);
+$border-radius-pill:  50px 0 50px 50px;

@@ -1,0 +1,52 @@
+section:first-of-type {
+  height: 60vh;
+  background-image: url(../../img/thomas-verbruggen-5A06OWU6Wuc-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+
+  div {
+    height: 100%;
+  }
+}
+
+#carouselContainer {
+  .carousel-item{
+    background-color: lighten($dark, 60%);
+    img {
+      height: 70vh;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: top;
+      object-position: top;
+
+      mix-blend-mode: overlay;
+    }
+  }
+}
+
+figure.rounded-circle {
+  width: 100px;
+  height: 100px;
+  img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+  }
+}
+
+ul li {
+  list-style-type: none;
+}
+
+hr {
+  background-color: $primary;
+  height: 4px;
+}
+
+footer figure img {
+  width: 150px;
+  height: 150px;
+}
